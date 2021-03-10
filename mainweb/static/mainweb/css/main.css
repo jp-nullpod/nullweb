@@ -85,3 +85,11 @@ li {
     z-index: 4;
     width: 100%;
 }
+
+
+/* Projects Page */
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
