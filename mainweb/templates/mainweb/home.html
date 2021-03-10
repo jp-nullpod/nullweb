@@ -1,5 +1,12 @@
 {% extends "base_generic.html" %}
 
+{% load static %}
 {% block content %}
-    Home
+    <div class="d-flex flex-column">
+        <div class="p-2 bg-info logocontainer">
+            <img class="border border-primary logo" src="{% static 'mainweb/images/nullpod_logo.svg' %}" />
+        </div>
+        <div class="p-2 bg-warning text-center"><span>&#60;Play it this way&#62;</span></div>
+    </div>
+
 {% endblock %}
