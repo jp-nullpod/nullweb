@@ -1,9 +1,9 @@
-.navbar-custom {
-    background-color: #2f2f2f;
-}
-
 body {
     background-color: #f9f9f9;
+}
+
+.navbar-custom {
+    background-color: #2f2f2f;
 }
 
 li {
@@ -18,11 +18,15 @@ li {
     /* Set the fixed height of the footer here */
     line-height: 60px;
     /* Vertically center the text there */
-    background-color: #eaeaea;
+    background-color: ##2f2f2f;
 }
 
 .container {
     width: 100%;
+}
+
+.homecontainer {
+    top: 100px;
 }
 
 .logocontainer {
@@ -36,4 +40,48 @@ li {
 
 .mainpage {
     margin: 0 auto;
+}
+
+.slogan {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 24pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.waveparent {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 5px rgb(25, 0, 255) solid;
+    width: 100%;
+}
+
+.wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 3px rgb(25, 0, 255) solid;
+    z-index: 2;
+    width: 100%;
+}
+
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 3px green solid;
+    z-index: 3;
+    width: 100%;
+}
+
+.wave3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 3px green solid;
+    z-index: 4;
+    width: 100%;
 }
