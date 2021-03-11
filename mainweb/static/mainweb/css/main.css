@@ -42,11 +42,15 @@ li {
 }
 
 .slogan {
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-family: 'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
+}
+
+.videogamecompany {
+    font-family: 'Ubuntu';
 }
 
 @media screen and (min-width: 801px) {
@@ -81,7 +85,7 @@ li {
     left: 0;
     z-index: 2;
     width: 100%;
-    height: 125px;
+    height: 135px;
 }
 
 .wave2 {
@@ -90,7 +94,7 @@ li {
     left: 0;
     z-index: 3;
     width: 100%;
-    height: 100px;
+    height: 110px;
 }
 
 .wave3 {
@@ -99,7 +103,7 @@ li {
     left: 0;
     z-index: 4;
     width: 100%;
-    height: 110px;
+    height: 120px;
 }
 
 
