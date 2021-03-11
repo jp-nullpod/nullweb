@@ -3,11 +3,19 @@
 {% load static %}
 
 {% block content %}
-    <div class="d-flex flex-column border border-primary">
-        <div class="p-2 bg-info logocontainer">
-            <img class="border border-secondary logo" src="{% static 'mainweb/images/nullpod_logo.svg' %}" />
+
+    <div class="d-flex flex-column">
+        <div class="p-2 logocontainer">
+            <img class="logo" src="{% static 'mainweb/images/nullpod_logo.svg' %}" />
         </div>
-        <div class="p-2 bg-warning text-center slogan"><span>&#60;play it this way&#62;</span></div>
-        <div class="p-2 bg-danger text-center"><span>The Video Game Company</span></div>
+        <div class="p-2 text-center slogan">
+            <span>&#60;play it this way&#62;</span>
+        </div>
+        <div class="p-2 text-center">
+            <span>The Video Game Company</span>
+        </div>
     </div>
+
+
+    <script type="application/javascript" src="{% static 'mainweb/javascript/paintsine.js' %}"></script>
 {% endblock %}

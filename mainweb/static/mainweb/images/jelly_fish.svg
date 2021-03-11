@@ -57,15 +57,6 @@
      id="layer1"
      transform="translate(-84.469097,-124.44767)">
 
-    <path
-       d="m 93.353354,156.2701 c -11.33442,4.33987 -11.7695,-22.64001 -1.6155,-29.36511 10.153966,-6.7251 38.826096,1.44913 28.876856,11.30964 -12.38386,12.27336 -12.63173,12.45386 -27.261356,18.05547 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2176);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1"
-       id="jellybody"
-       sodipodi:nodetypes="ssss" />
-    <path
-       style="opacity:0.322581;fill:#000000;stroke-width:0.264583"
-       id="jellybody-spot"
-       d="m 93.854864,130.84551 c 2.68366,-0.0903 5.36491,0.0339 8.037906,0.26655 2.15399,0.14572 4.28774,0.40071 6.40418,0.82519 1.63334,0.31539 3.06159,1.18055 4.40237,2.12675 0.80842,0.44789 1.2995,1.15575 1.82869,1.87455 0.29661,0.43061 0.14126,0.2195 0.4663,0.63311 0,0 4.50131,-2.69148 4.50131,-2.69148 v 0 c -0.31339,-0.38114 -0.15961,-0.17771 -0.45768,-0.61294 -0.56363,-0.76396 -1.07847,-1.53442 -1.94834,-1.99777 -1.38863,-0.9806 -2.86891,-1.92564 -4.55071,-2.28849 -2.13951,-0.42356 -4.28677,-0.75395 -6.46973,-0.84986 -2.65652,-0.21706 -5.31749,-0.36273 -7.983926,-0.35915 0,0 -4.23037,3.07354 -4.23037,3.07354 z" />
    <path
        d="m 131.53199,159.42107 c -1.95531,0.62099 -3.61756,0.60213 -4.98663,-0.0561 -1.11342,-0.52984 -2.25497,-1.59974 -3.3102,-3.45031 -1.86716,-3.27438 -1.99226,-6.11311 -4.30063,-9.52068 -1.7318,-2.55636 -8.54193,-7.39165 -8.54193,-7.39165 l -2.15297,1.25583 c 0,0 6.28216,4.26287 8.49446,7.17009 2.32392,3.05166 2.61456,7.01532 4.68791,10.35244 1.32246,2.12867 3.22635,3.33837 5.13525,3.9755 1.86364,0.62977 3.97071,0.44798 6.32098,-0.54524 z"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:'AR BONNIE';-inkscape-font-specification:'AR BONNIE';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2251-5);fill:#ffffff;fill-opacity:0.5;stroke:none;stroke-width:1"
@@ -81,5 +72,14 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:'AR BONNIE';-inkscape-font-specification:'AR BONNIE';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2251-5);fill:#ffffff;fill-opacity:0.5;stroke:none;stroke-width:1"
        id="path2330-9-3-0"
        sodipodi:nodetypes="ccssccssccc" />
+           <path
+       d="m 93.353354,156.2701 c -11.33442,4.33987 -11.7695,-22.64001 -1.6155,-29.36511 10.153966,-6.7251 38.826096,1.44913 28.876856,11.30964 -12.38386,12.27336 -12.63173,12.45386 -27.261356,18.05547 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2176);fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:1"
+       id="jellybody"
+       sodipodi:nodetypes="ssss" />
+    <path
+       style="opacity:0.322581;fill:#000000;stroke-width:0.264583"
+       id="jellybody-spot"
+       d="m 93.854864,130.84551 c 2.68366,-0.0903 5.36491,0.0339 8.037906,0.26655 2.15399,0.14572 4.28774,0.40071 6.40418,0.82519 1.63334,0.31539 3.06159,1.18055 4.40237,2.12675 0.80842,0.44789 1.2995,1.15575 1.82869,1.87455 0.29661,0.43061 0.14126,0.2195 0.4663,0.63311 0,0 4.50131,-2.69148 4.50131,-2.69148 v 0 c -0.31339,-0.38114 -0.15961,-0.17771 -0.45768,-0.61294 -0.56363,-0.76396 -1.07847,-1.53442 -1.94834,-1.99777 -1.38863,-0.9806 -2.86891,-1.92564 -4.55071,-2.28849 -2.13951,-0.42356 -4.28677,-0.75395 -6.46973,-0.84986 -2.65652,-0.21706 -5.31749,-0.36273 -7.983926,-0.35915 0,0 -4.23037,3.07354 -4.23037,3.07354 z" />
   </g>
 </svg>
