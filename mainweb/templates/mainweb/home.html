@@ -1,5 +1,19 @@
 {% extends "base_generic.html" %}
 
+{% load static %}
+
 {% block content %}
-    Home
+
+    <div class="d-flex flex-column">
+        <div class="p-2 logocontainer">
+            <img class="logo" src="{% static 'mainweb/images/nullpod_logo.svg' %}" />
+        </div>
+        <div class="p-2 text-center slogan">
+            <span>&#60;play it this way&#62;</span>
+        </div>
+        <div class="p-2 text-center videogamecompany">
+            <span>The Video Game Company</span>
+        </div>
+    </div>
+
 {% endblock %}
