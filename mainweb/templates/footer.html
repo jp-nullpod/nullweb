@@ -61,7 +61,7 @@ anime({
 
 anime({
   targets: '.wave1 > path',
-  translateY: randomY(),
+  translateY: randomY(65),
   direction: 'alternate',
   loop: true,
   duration: 2000,
@@ -70,24 +70,24 @@ anime({
 
 anime({
   targets: '.wave2 > path',
-  translateY: randomY(),
+  translateY: randomY(60),
   direction: 'alternate',
   loop: true,
   duration: 1800,
-  easing: 'easeOutCubic'
+  easing: 'easeInOutSine'
 });
 
 anime({
   targets: '.wave3 > path',
-  translateY: randomY(),
+  translateY: randomY(70),
   direction: 'alternate',
   loop: true,
   duration: 1700,
-  easing: 'easeInBounce'
+  easing: 'easeInOutSine'
 });
 
-function randomY() {
-    y = Math.floor(Math.random() * 20) + 60
+function randomY(starting) {
+    y = Math.floor(Math.random() * 5) + starting
     return y
 }
 
