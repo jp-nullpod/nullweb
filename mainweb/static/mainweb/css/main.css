@@ -28,6 +28,14 @@ li {
     transform: translate(-50%, -50%);
 }
 
+.mainbackground {
+    background-image: url('../images/slice.png');
+    background-repeat: repeat-x;
+    background-size: 600px 500px;
+    background-position: 100px 100px;
+    z-index: -1;
+}
+
 .logocontainer {
     display: flex;
     justify-content: center;
