@@ -4,22 +4,26 @@
 {% load fontawesome_5 %}
 
 {% block content %}
-    <div class="d-flex flex-column">
-        <div class="p-2 logocontainer">
-            <img class="logo" src="{% static 'mainweb/images/nullpod_logo.svg' %}" />
+    <div class="row">
+
+        <div class="d-flex flex-column justify-content-center">
+            <div class="p-2 logocontainer">
+                <img class="logo" src="{% static 'mainweb/images/nullpod_logo.svg' %}" />
+            </div>
+            <div class="p-2 text-center slogan">
+                <span>&#60;play it this way&#62;</span>
+            </div>
+            <div class="p-2 text-center videogamecompany">
+                <span class="circlesize">
+                    Game Design
+                    <span class="fas">.</span>
+                    Software Apps
+                    <span class="fas">.</span>
+                    Music Production
+                </span>
+            </div>
         </div>
-        <div class="p-2 text-center slogan">
-            <span>&#60;play it this way&#62;</span>
-        </div>
-        <div class="p-2 text-center videogamecompany">
-            <span class="circlesize">
-                Game Design
-                <span class="fas">.</span>
-                Software Apps
-                <span class="fas">.</span>
-                Music Production
-            </span>
-        </div>
+
     </div>
 
 {% endblock %}

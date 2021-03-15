@@ -1,7 +1,87 @@
 {% extends "base_generic.html" %}
 
+{% load static %}
+{% load sass_tags %}
 {% block content %}
 
-<h3>[ winter is coming ]</h3>
+<link rel="stylesheet" type="text/css" href="{% sass_src 'mainweb/css/blog.scss' %}">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+
+
+
+<div class="mt-5">
+    <h3 class="projects font-weight-bold">Our Projects</h3>
+
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__item swiper-slide">
+
+            <div class="blog-slider__img">
+                <img src="{% static 'mainweb/images/grunge-spray-splatter.png' %}" alt="">
+            </div>
+
+            <div class="blog-slider__content">
+                <span class="blog-slider__code">Python Django/Bootstrap</span>
+                <div class="blog-slider__title">QB LAB</div>
+                <div class="blog-slider__text">Lab Software</div>
+                <a href="#" class="blog-slider__button">Read More</a>
+            </div>
+
+        </div>
+        
+        <div class="blog-slider__item swiper-slide">
+
+            <div class="blog-slider__img">
+                <img src="{% static 'mainweb/images/comment.png' %}" alt="">
+            </div>
+
+            <div class="blog-slider__content">
+                <span class="blog-slider__code">(PHP 7/VueJs)</span>
+                <div class="blog-slider__title">Comment System</div>
+                <div class="blog-slider__text">Comment System for Expat.com</div>
+                <a href="#" class="blog-slider__button">Read More</a>
+            </div>
+
+        </div>
+            
+        <div class="blog-slider__item swiper-slide">
+
+            <div class="blog-slider__img">
+                <img src="{% static 'mainweb/images/chronicles.png' %}" alt="">
+            </div>
+
+            <div class="blog-slider__content">
+                <span class="blog-slider__code">Unity C#/Clip Studio Paint</span>
+                <div class="blog-slider__title">Chronicles of Sun</div>
+                <div class="blog-slider__text">Game for Afrasia Bank</div>
+                <a href="#" class="blog-slider__button">Read more</a>
+            </div>
+
+            </div>
+        </div>
+        
+        <div class="blog-slider__pagination"></div>
+    </div>  
+
+</div>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+<script>
+    var swiper = new Swiper('.blog-slider', {
+        spaceBetween: 30,
+        effect: 'fade',
+        loop: true,
+        mousewheel: {
+            invert: false,
+        },
+        // autoHeight: true,
+        pagination: {
+            el: '.blog-slider__pagination',
+            clickable: true,
+        }
+        });
+</script>
 
 {% endblock %}

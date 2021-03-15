@@ -1,6 +1,7 @@
 body {
     background-color: #fafafa;
     height: 100%;
+    width: 100%;
 }
 
 .navbar-custom {
@@ -20,12 +21,11 @@ li {
 }
 
 .maincontainer {
-    margin: 0;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .logocontainer {
@@ -34,7 +34,8 @@ li {
 }
 
 .logo {
-    width: 65%;
+    margin-top: 45%;
+    width: 100%;
 }
 
 .mainpage {
@@ -112,20 +113,6 @@ li {
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
-}
-
-.highlight {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 200px;
-    background: url('../images/grunge-spray-splatter.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 8px 0;
-    z-index: 1;
-    opacity: 0.3;
 }
 
 .circlesize .fas {
