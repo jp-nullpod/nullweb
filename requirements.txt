@@ -26,6 +26,9 @@ django-sass-processor==0.8.2 \
 django==3.1.7; python_version >= "3.6" \
     --hash=sha256:baf099db36ad31f970775d0be5587cc58a6256a6771a44eb795b554d45f211b8 \
     --hash=sha256:32ce792ee9b6a0cbbec340123e229ac9f765dff8c2a4ae9247a14b2ba3a365a7
+gunicorn==20.0.4; python_version >= "3.4" \
+    --hash=sha256:cd4a810dd51bf497552cf3f863b575dabd73d6ad6a91075b65936b151cbf4f9c \
+    --hash=sha256:1904bb2b8a43658807108d59c3f3d56c2b6121a701161de0ddf9ad140073c626
 libsass==0.20.1 \
     --hash=sha256:4a246e4b88fd279abef8b669206228c92534d96ddcd0770d7012088c408dff23 \
     --hash=sha256:697f0f9fa8a1367ca9ec6869437cb235b1c537fc8519983d1d890178614a8903 \
