@@ -134,3 +134,6 @@ STATICFILES_FINDERS = [
 ]
 
 SASS_PROCESSOR_ROOT = STATIC_URL
+
+import django_heroku
+django_heroku.settings(locals())
