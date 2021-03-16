@@ -8,9 +8,6 @@ body {
     background-color: #2f2f2f;
 }
 
-li {
-    list-style: none;
-}
 
 .footer {
     position: absolute;
@@ -120,6 +117,8 @@ li {
     font-size: 35px;
 }
 
-.socialicons {
+.socialicons ul li {
     font-size: large;
+    display: inline-flex;
+    list-style: none;
 }
