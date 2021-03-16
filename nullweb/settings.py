@@ -36,7 +36,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'mainweb',
-    'fontawesome_5',
     'sass_processor',
     'django.contrib.admin',
     'django.contrib.auth',
