@@ -120,17 +120,6 @@ rjsmin = "1.1.0"
 six = ">=1.12.0"
 
 [[package]]
-name = "django-fontawesome-5"
-version = "1.0.18"
-description = "A utility for using icons in models, forms, and templates."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-Django = ">=2.1"
-
-[[package]]
 name = "django-sass-processor"
 version = "0.8.2"
 description = "SASS processor to compile SCSS files into *.css, while rendering, or offline."
@@ -331,7 +320,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "f015eba6403f4a2715b5f715943ea7a0a46d90b0a131fb0a3aa76f5814a8dd1e"
+content-hash = "af4017b1da174b93231e2dcda4e8e8f408c4fd56b9eeb3aa09a2115cfaac772d"
 
 [metadata.files]
 appdirs = [
@@ -372,10 +361,6 @@ django-appconf = [
 django-compressor = [
     {file = "django_compressor-2.4-py2.py3-none-any.whl", hash = "sha256:57ac0a696d061e5fc6fbc55381d2050f353b973fb97eee5593f39247bc0f30af"},
     {file = "django_compressor-2.4.tar.gz", hash = "sha256:d2ed1c6137ddaac5536233ec0a819e14009553fee0a869bea65d03e5285ba74f"},
-]
-django-fontawesome-5 = [
-    {file = "django-fontawesome-5-1.0.18.tar.gz", hash = "sha256:4fc4a7f5d0fe6e10d542ac9f1c143ad5e92aa61c6f310ea297c3c26bfc6001dd"},
-    {file = "django_fontawesome_5-1.0.18-py3-none-any.whl", hash = "sha256:1be340e795a6a68ebd9ba5d75e26bd72a839515c351786ff45e16b90bf50c3a0"},
 ]
 django-sass-processor = [
     {file = "django-sass-processor-0.8.2.tar.gz", hash = "sha256:9b46a12ca8bdcb397d46fbcc49e6a926ff9f76a93c5efeb23b495419fd01fc7a"},

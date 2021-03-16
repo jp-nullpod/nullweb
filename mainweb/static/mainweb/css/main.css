@@ -8,9 +8,6 @@ body {
     background-color: #2f2f2f;
 }
 
-li {
-    list-style: none;
-}
 
 .footer {
     position: absolute;
@@ -118,4 +115,10 @@ li {
 .circlesize .fas {
     margin: 5px;
     font-size: 35px;
+}
+
+.socialicons ul li {
+    font-size: large;
+    display: inline-flex;
+    list-style: none;
 }
