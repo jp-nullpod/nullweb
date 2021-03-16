@@ -12,6 +12,7 @@ v.0.2 (Planned for April 2021)
 - Improve Waves Design scraping SVG for Pure CSS
 - Fix footer issues
 - Change Colors on Active Menus
+- Convert all CSS to SCSS
 
 
 
