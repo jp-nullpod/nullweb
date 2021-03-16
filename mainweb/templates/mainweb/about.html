@@ -1,47 +1,49 @@
 {% extends "base_generic.html" %}
 
-
+{% load sass_tags %}
 {% block content %}
+<link rel="stylesheet" type="text/css" href="{% sass_src 'mainweb/css/about.scss' %}">
 
 <div class="row mt-4">
-  <div class="ml-4 col-sm-6 col-lg-8 col-md-8">
+  <div class="col col-sm-12">
 
-      <h4>About Us</h4>
-      <div>We are a software development company based in Mauritius with specialisation in Video Games.
-        We design everything from ground up and we take care of:
-        <ul>
-          <li>Game concept and design</li>
-          <li>Coding</li>
-          <li>Visual Arts/Graphics</li>
-          <li>Music Production and Sound Design</li>
-          <li>Deployment to iOS, Android and Windows</li>
-        </ul>
-        We also develop custom web, mobile and desktop apps. 
-        We are a small team that does master the following tech stacks:
-        <ul>
-          <li>Python w/Django or Flask</li>
-          <li>Symfony 4/5, PHP 7</li>
-          <li>React</li>
-          <li>VueJs</li>
-          <li>Unity Platform</li>
-        </ul> 
-      </div>
+      <h4 class="ml-3">About Us</h4>
+        <div class="textbox-custom">
+              <div>We are a software development company based in Mauritius with specialisation in Video Games.
+                We design everything from ground up and we take care of:
+                  <ul>
+                    <li>Game concept and design</li>
+                    <li>Coding</li>
+                    <li>Visual Arts/Graphics</li>
+                    <li>Music Production and Sound Design</li>
+                    <li>Deployment to iOS, Android and Windows</li>
+                  </ul>
+                We also develop custom web, mobile and desktop apps. 
+                We are a small team that does master the following tech stacks:
+                <ul>
+                  <li>Python w/Django or Flask</li>
+                  <li>Symfony 4/5, PHP 7</li>
+                  <li>React</li>
+                  <li>VueJs</li>
+                  <li>Unity Platform</li>
+                </ul> 
+              </div>
 
-      <h4>Contact Us</h4>
-      <div class="mb-4">
-        E: jp.fortuno@nullpod.com. P: +230 57508958
-      </div>
+              <h4>Contact Us</h4>
+              <div class="mb-4">
+                E: jp.fortuno@nullpod.com. P: +230 57508958
+              </div>
 
-      <h4>Follow Us</h4>
-      <div class="socialicons">
-        <ul>
-          <li><a href="https://www.facebook.com/nullpod" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a></li>
-          <li><a href="https://www.linkedin.com/company/nullpod" title="Linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
-          <li><a href="https://www.instagram.com/nullpodltd/" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a></li>
-          <li><a href="https://www.youtube.com/channel/UC0JQSZ8_L9dzAXiWht_SW9w" title="Youtube"><i class="fab fa-youtube fa-2x"></i></a></li>
-        </ul>				
-      </div>
-	</div>
-
+              <h4>Follow Us</h4>
+              <div class="socialicons">
+                <ul>
+                  <li><a href="https://www.facebook.com/nullpod" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/nullpod" title="Linkedin"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                  <li><a href="https://www.instagram.com/nullpodltd/" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a></li>
+                  <li><a href="https://www.youtube.com/channel/UC0JQSZ8_L9dzAXiWht_SW9w" title="Youtube"><i class="fab fa-youtube fa-2x"></i></a></li>
+                </ul>				
+              </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
