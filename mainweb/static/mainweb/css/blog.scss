@@ -107,6 +107,7 @@
         padding-right: 25px;
         @media screen and (max-width: 992px) {
             // width: 55%;
+            text-align: left;
         }
         @media screen and (max-width: 768px) {
             margin-top: -80px;
@@ -114,7 +115,15 @@
             padding: 0 30px;
         }
         @media screen and (max-width: 576px) {
-            padding: 0
+            margin-left: 130px;
+            margin-right: 130px;
+            padding: 0;
+        }
+        @media screen and (max-width: 360px) {
+            padding: 0;
+            margin-left: 150px;
+            margin-right: 150px;
+            text-align: justify;
         }
         >* {
             opacity: 0;
