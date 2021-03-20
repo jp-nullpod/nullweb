@@ -12,9 +12,18 @@ body {
     line-height: 26.4px;
 }
 
+
+
+.tagline {
+    font-family: 'Ubuntu';
+}
+
 @media screen and (min-width: 801px) {
     .slogan {
         font-size: 30px;
+    }
+    .tagline {
+        font-size: 20px;
     }
 }
 
@@ -22,17 +31,26 @@ body {
     .slogan {
         font-size: 28px;
     }
+    .tagline {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 481px) {
     .slogan {
         font-size: 24px;
     }
+    .tagline {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .slogan {
         font-size: 20px;
+    }
+    .tagline {
+        font-size: 14px;
     }
 }
 
@@ -67,12 +85,6 @@ body {
 
 .mainpage {
     margin: 0 auto;
-}
-
-
-
-.tagline {
-    font-family: 'Ubuntu';
 }
 
 
