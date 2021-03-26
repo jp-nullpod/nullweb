@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-26 16:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\mainweb\templates\header.html:16
+msgid "Home"
+msgstr "Accueil"
+
+#: .\mainweb\templates\header.html:17
+msgid "Projects"
+msgstr "Projets"
+
+#: .\mainweb\templates\header.html:18
+msgid "About"
+msgstr "À propos"
+
+#: .\mainweb\templates\mainweb\about.html:12
+#, fuzzy
+#| msgid "About"
+msgid "About Us"
+msgstr "À propos"
+
+#: .\mainweb\templates\mainweb\about.html:14
+msgid ""
+"We are a software development company based in Mauritius with specialisation "
+"in Video Games. We design everything from ground up and we take care of:"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:16
+msgid "Game concept and design"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:17
+msgid "Coding"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:18
+msgid "Visual Arts/Graphics"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:19
+#, fuzzy
+#| msgid "Music Production"
+msgid "Music Production and Sound Design"
+msgstr "Production de Musique"
+
+#: .\mainweb\templates\mainweb\about.html:20
+msgid "Deployment to iOS, Android and Windows"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:22
+msgid "We also develop custom web, mobile and desktop apps."
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:23
+msgid "We are a small team that masters the following tech stacks:"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:25
+msgid "Python w/Django or Flask"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:29
+msgid "Unity Platform"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\about.html:33
+msgid "Follow Us"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\home.html:18
+msgid "Game Design"
+msgstr "Conception Jeux Videos"
+
+#: .\mainweb\templates\mainweb\home.html:20
+msgid "Web/Mobile Apps"
+msgstr "Application Web/Mobile"
+
+#: .\mainweb\templates\mainweb\home.html:22
+msgid "Music Production"
+msgstr "Production de Musique"
+
+#: .\mainweb\templates\mainweb\projects.html:14
+#, fuzzy
+#| msgid "Projects"
+msgid "Our Projects"
+msgstr "Projets"
+
+#: .\mainweb\templates\mainweb\projects.html:26
+msgid "Codename:"
+msgstr "Nom de code:"
+
+#: .\mainweb\templates\mainweb\projects.html:28
+msgid ""
+"We built a video game for one of our corporate clients CSR department. The "
+"official product will be launched soon. We handled most aspects of the "
+"project management, game design, visual art, sound fx and music."
+msgstr ""
+
+#: .\mainweb\templates\mainweb\projects.html:43
+msgid "Comment System"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\projects.html:44
+msgid ""
+"We revamped the Comment System of one of our clients and built a 2-level "
+"comment system from scratch using the modern VueJs framework that includes "
+"emojis, animated GIFs and images"
+msgstr ""
+
+#: .\mainweb\templates\mainweb\projects.html:60
+msgid ""
+"QB Lab Software is a custom software exclusively designed for the "
+"Laboratoire de Quatre Bornes in Mauritius using Python\\"
+msgstr ""
+
+#: .\nullweb\settings.py:62
+msgid "English"
+msgstr "Anglais"
+
+#: .\nullweb\settings.py:63
+msgid "French"
+msgstr "Francais"

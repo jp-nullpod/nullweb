@@ -1,35 +1,36 @@
 {% extends "base_generic.html" %}
 
 {% load sass_tags %}
+{% load i18n %}
+
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% sass_src 'mainweb/css/about.scss' %}">
 
 <div class="row mt-4">
   <div class="col col-sm-12">
 
-      <h4 class="ml-3 about">About Us</h4>
+      <h4 class="ml-3 about">{% trans 'About Us' %}</h4>
         <div class="textbox-custom">
-              <div>We are a software development company based in Mauritius with specialisation in Video Games.
-                We design everything from ground up and we take care of:
+              <div>{% trans 'We are a software development company based in Mauritius with specialisation in Video Games. We design everything from ground up and we take care of:' %}
                   <ul>
-                    <li>Game concept and design</li>
-                    <li>Coding</li>
-                    <li>Visual Arts/Graphics</li>
-                    <li>Music Production and Sound Design</li>
-                    <li>Deployment to iOS, Android and Windows</li>
+                    <li>{% trans 'Game concept and design' %}</li>
+                    <li>{% trans 'Coding' %}</li>
+                    <li>{% trans 'Visual Arts/Graphics' %}</li>
+                    <li>{% trans 'Music Production and Sound Design' %}</li>
+                    <li>{% trans 'Deployment to iOS, Android and Windows' %}</li>
                   </ul>
-                We also develop custom web, mobile and desktop apps. 
-                We are a small team that masters the following tech stacks:
+                {% trans 'We also develop custom web, mobile and desktop apps.' %} 
+                {% trans 'We are a small team that masters the following tech stacks:' %}
                 <ul>
-                  <li>Python w/Django or Flask</li>
+                  <li>{% trans 'Python w/Django or Flask' %}</li>
                   <li>Symfony 4/5, PHP 7</li>
                   <li>React</li>
                   <li>VueJs</li>
-                  <li>Unity Platform</li>
+                  <li>{% trans 'Unity Platform' %}</li>
                 </ul> 
               </div>
 
-              <h4>Follow Us</h4>
+              <h4>{% trans 'Follow Us' %}</h4>
               <div class="socialicons">
                 <ul>
                   <li><a href="https://www.facebook.com/nullpod" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a></li>
