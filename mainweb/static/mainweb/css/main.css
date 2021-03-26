@@ -4,6 +4,56 @@ body {
     width: 100%;
 }
 
+.slogan {
+    font-family: 'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+
+
+.tagline {
+    font-family: 'Ubuntu';
+}
+
+@media screen and (min-width: 801px) {
+    .slogan {
+        font-size: 30px;
+    }
+    .tagline {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .slogan {
+        font-size: 28px;
+    }
+    .tagline {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .slogan {
+        font-size: 24px;
+    }
+    .tagline {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slogan {
+        font-size: 20px;
+    }
+    .tagline {
+        font-size: 14px;
+    }
+}
+
 .navbar-custom {
     background-color: #2f2f2f;
 }
@@ -37,29 +87,7 @@ body {
     margin: 0 auto;
 }
 
-.slogan {
-    font-family: 'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    line-height: 26.4px;
-}
 
-.videogamecompany {
-    font-family: 'Ubuntu';
-}
-
-@media screen and (min-width: 801px) {
-    .slogan {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .slogan {
-        font-size: 28px;
-    }
-}
 
 .waveparent {
     position: relative;
