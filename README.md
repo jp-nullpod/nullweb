@@ -9,11 +9,15 @@ First Draft of the Site:
 - Responsiveness for Landscape Mode on Mobile
 
 v.0.2 (Planned for April 2021)
+- Meta Tags for Search
+- URL Preview
+- Meta Description
 - Include Contact Form with anti-spam mechanism
 - Improve Waves Design scraping SVG for Pure CSS
 - Fix footer issues
 - Change Colors on Active Menus
 - Convert all CSS to SCSS
+- English and French (Multilanguage platform)
  
 
 
