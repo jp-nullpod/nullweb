@@ -12,7 +12,23 @@ body {
     line-height: 26.4px;
 }
 
+.lang-switch {
+    font-size: 16px;
+    margin-right: 8px;
+    margin-left: -5px;
+}
 
+.lang-switch a {
+    color: aquamarine;
+}
+
+.lang-switch a:hover {
+    color: azure;
+}
+
+.lang-switch a:active {
+    color: darkslategrey;
+}
 
 .tagline {
     font-family: 'Ubuntu';
@@ -86,8 +102,6 @@ body {
 .mainpage {
     margin: 0 auto;
 }
-
-
 
 .waveparent {
     position: relative;

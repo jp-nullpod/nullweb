@@ -7,7 +7,7 @@
     <a class="navbar-brand" href="#">
         <img class="jellyfish" src="{% static 'mainweb/images/jelly_fish.svg' %}" />
     </a>
-    <span> <a href="{% url 'mainweb:change_language' 'en'%}">EN</a> | <a href="{% url 'mainweb:change_language' 'fr'%}">FR</a> </span>
+    <span class="lang-switch"> [<a href="{% url 'mainweb:change_language' 'en'%}">EN</a> | <a href="{% url 'mainweb:change_language' 'fr'%}">FR</a>]</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
