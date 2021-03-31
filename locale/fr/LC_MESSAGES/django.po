@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-26 16:10+0400\n"
+"POT-Creation-Date: 2021-03-31 22:51+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,9 @@ msgstr "À propos"
 msgid ""
 "We are a software development company based in Mauritius with specialisation "
 "in Video Games. We design everything from ground up and we take care of:"
-msgstr "Nous sommes une société de création numérique qui œuvre dans le domaine de jeu vidéo. 
-Nous concevons tout à partir de rien et nous nous occupons de:"
+msgstr ""
+"Nous sommes une société de création numérique qui œuvre dans le domaine de "
+"jeu vidéo.Nous concevons tout à partir de rien et nous nous occupons de:"
 
 #: .\mainweb\templates\mainweb\about.html:16
 msgid "Game concept and design"
@@ -67,11 +68,15 @@ msgstr "Déploiement sur iOS, Android et Windows"
 
 #: .\mainweb\templates\mainweb\about.html:22
 msgid "We also develop custom web, mobile and desktop apps."
-msgstr "Nous développons également des applications personnalisées  pour Web, mobiles et bureau."
+msgstr ""
+"Nous développons également des applications personnalisées  pour Web, "
+"mobiles et bureau."
 
 #: .\mainweb\templates\mainweb\about.html:23
 msgid "We are a small team that masters the following tech stacks:"
-msgstr "Nous sommes une petite équipe qui maîtrise les composants technologiques suivants:"
+msgstr ""
+"Nous sommes une petite équipe qui maîtrise les composants technologiques "
+"suivants:"
 
 #: .\mainweb\templates\mainweb\about.html:25
 msgid "Python w/Django or Flask"
@@ -108,13 +113,20 @@ msgid "Codename:"
 msgstr "Nom de code:"
 
 #: .\mainweb\templates\mainweb\projects.html:28
+#, fuzzy
+#| msgid ""
+#| "We built a video game for one of our corporate client's CSR department. "
+#| "The official product will be launched soon. We handled most aspects of "
+#| "the project management, game design, visual art, sound fx and music."
 msgid ""
-"We built a video game for one of our corporate client's CSR department. The "
+"We built a video game for one of our corporate clients CSR department. The "
 "official product will be launched soon. We handled most aspects of the "
 "project management, game design, visual art, sound fx and music."
-msgstr "Nous avons fait un jeu vidéo pour l'une de nos entreprises clientes du département de RSE. 
-Le produit officiel sera bientôt lancé. 
-Nous avons traité la plupart des aspects de la gestion de projet, la conceptualisation du jeu, les arts visuels, les effets sonores et la musique."
+msgstr ""
+"Nous avons fait un jeu vidéo pour l'une de nos entreprises clientes du "
+"département de RSE.Le produit officiel sera bientôt lancé.Nous avons traité "
+"la plupart des aspects de la gestion de projet, la conceptualisation du jeu, "
+"les arts visuels, les effets sonores et la musique."
 
 #: .\mainweb\templates\mainweb\projects.html:43
 msgid "Comment System"
@@ -125,16 +137,23 @@ msgid ""
 "We revamped the Comment System of one of our clients and built a 2-level "
 "comment system from scratch using the modern VueJs framework that includes "
 "emojis, animated GIFs and images"
-msgstr "Nous avons réorganisé le système de commentaires de l'un de nos client et construit un système à deux niveaux :
- le système de commentaires à partir de zéro en utilisant le framework VueJs moderne qui inclut 
-des emojis, des GIF animés et des images."
+msgstr ""
+"Nous avons réorganisé le système de commentaires de l'un de nos client et "
+"construit un système à deux niveaux :le système de commentaires à partir de "
+"zéro en utilisant le framework VueJs moderne qui inclut des emojis, des GIF "
+"animés et des images."
 
 #: .\mainweb\templates\mainweb\projects.html:60
+#, fuzzy
+#| msgid ""
+#| "QB Lab Software is a custom software exclusively designed for the "
+#| "Laboratoire de Quatre Bornes in Mauritius using Python"
 msgid ""
 "QB Lab Software is a custom software exclusively designed for the "
 "Laboratoire de Quatre Bornes in Mauritius using Python\\"
-msgstr "le logiciel de QB Lab est un logiciel personnalisé conçu exclusivement pour 
-le laboratoire de Quatre Bornes à Maurice utilisant Python"
+msgstr ""
+"le logiciel de QB Lab est un logiciel personnalisé conçu exclusivement "
+"pourle laboratoire de Quatre Bornes à Maurice utilisant Python"
 
 #: .\nullweb\settings.py:62
 msgid "English"
