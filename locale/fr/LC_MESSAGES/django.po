@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-31 22:51+0400\n"
+"POT-Creation-Date: 2021-03-31 23:09+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +41,7 @@ msgid ""
 "in Video Games. We design everything from ground up and we take care of:"
 msgstr ""
 "Nous sommes une société de création numérique qui œuvre dans le domaine de "
-"jeu vidéo.Nous concevons tout à partir de rien et nous nous occupons de:"
+"jeu vidéo. Nous concevons tout à partir de rien et nous nous occupons de:"
 
 #: .\mainweb\templates\mainweb\about.html:16
 msgid "Game concept and design"
@@ -57,8 +56,6 @@ msgid "Visual Arts/Graphics"
 msgstr "Art visuel/graphisme"
 
 #: .\mainweb\templates\mainweb\about.html:19
-#, fuzzy
-#| msgid "Music Production"
 msgid "Music Production and Sound Design"
 msgstr "Conceptualisation et Production de Musique"
 
@@ -90,6 +87,10 @@ msgstr "Plateforme Unity"
 msgid "Follow Us"
 msgstr "Suivez-nous"
 
+#: .\mainweb\templates\mainweb\about.html:43
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
 #: .\mainweb\templates\mainweb\home.html:18
 msgid "Game Design"
 msgstr "Conception de Jeu Video"
@@ -103,8 +104,6 @@ msgid "Music Production"
 msgstr "Production de Musique"
 
 #: .\mainweb\templates\mainweb\projects.html:14
-#, fuzzy
-#| msgid "Projects"
 msgid "Our Projects"
 msgstr "Nos Projets"
 
@@ -113,11 +112,6 @@ msgid "Codename:"
 msgstr "Nom de code:"
 
 #: .\mainweb\templates\mainweb\projects.html:28
-#, fuzzy
-#| msgid ""
-#| "We built a video game for one of our corporate client's CSR department. "
-#| "The official product will be launched soon. We handled most aspects of "
-#| "the project management, game design, visual art, sound fx and music."
 msgid ""
 "We built a video game for one of our corporate clients CSR department. The "
 "official product will be launched soon. We handled most aspects of the "
@@ -147,13 +141,15 @@ msgstr ""
 #, fuzzy
 #| msgid ""
 #| "QB Lab Software is a custom software exclusively designed for the "
-#| "Laboratoire de Quatre Bornes in Mauritius using Python"
+#| "Laboratoire de Quatre Bornes in Mauritius using Python\\"
 msgid ""
 "QB Lab Software is a custom software exclusively designed for the "
-"Laboratoire de Quatre Bornes in Mauritius using Python\\"
+"Laboratoire de Quatre Bornes in Mauritius using Python Django framework. QB "
+"Lab is an application that registers Patient data and Blood Testsand "
+"produces simple reports given to the patients visiting."
 msgstr ""
-"le logiciel de QB Lab est un logiciel personnalisé conçu exclusivement "
-"pourle laboratoire de Quatre Bornes à Maurice utilisant Python"
+"Le logiciel de QB Lab est un logiciel personnalisé conçu exclusivement pour "
+"le laboratoire de Quatre Bornes à Maurice utilisant Python"
 
 #: .\nullweb\settings.py:62
 msgid "English"
