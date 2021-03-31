@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-31 23:09+0400\n"
+"POT-Creation-Date: 2021-03-31 23:13+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,8 +66,8 @@ msgstr "Déploiement sur iOS, Android et Windows"
 #: .\mainweb\templates\mainweb\about.html:22
 msgid "We also develop custom web, mobile and desktop apps."
 msgstr ""
-"Nous développons également des applications personnalisées  pour Web, "
-"mobiles et bureau."
+"Nous développons également des applications personnalisées pour le Web, "
+"mobile et bureau."
 
 #: .\mainweb\templates\mainweb\about.html:23
 msgid "We are a small team that masters the following tech stacks:"
@@ -138,18 +138,17 @@ msgstr ""
 "animés et des images."
 
 #: .\mainweb\templates\mainweb\projects.html:60
-#, fuzzy
-#| msgid ""
-#| "QB Lab Software is a custom software exclusively designed for the "
-#| "Laboratoire de Quatre Bornes in Mauritius using Python\\"
 msgid ""
 "QB Lab Software is a custom software exclusively designed for the "
 "Laboratoire de Quatre Bornes in Mauritius using Python Django framework. QB "
-"Lab is an application that registers Patient data and Blood Testsand "
+"Lab is an application that registers Patient data and Blood Tests and "
 "produces simple reports given to the patients visiting."
 msgstr ""
 "Le logiciel de QB Lab est un logiciel personnalisé conçu exclusivement pour "
-"le laboratoire de Quatre Bornes à Maurice utilisant Python"
+"le laboratoire de Quatre Bornes à Maurice utilisant le framework Django de "
+"Python. QB Lab est un logiciel qui enregistre les données de tests sanguins "
+"et les infos des Patients et produit des rapports sur les patients ayant "
+"visité le laboratoire."
 
 #: .\nullweb\settings.py:62
 msgid "English"
