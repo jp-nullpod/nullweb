@@ -45,7 +45,7 @@ msgstr ""
 
 #: .\mainweb\templates\mainweb\about.html:16
 msgid "Game concept and design"
-msgstr "Conceptualisation et design de jeu"
+msgstr "Conceptualisation et design de jeu vidéo"
 
 #: .\mainweb\templates\mainweb\about.html:17
 msgid "Coding"
@@ -93,7 +93,7 @@ msgstr "Contactez-nous"
 
 #: .\mainweb\templates\mainweb\home.html:18
 msgid "Game Design"
-msgstr "Conception de Jeu Video"
+msgstr "Conception de Jeu Vidéo"
 
 #: .\mainweb\templates\mainweb\home.html:20
 msgid "Web/Mobile Apps"
@@ -133,8 +133,8 @@ msgid ""
 "emojis, animated GIFs and images"
 msgstr ""
 "Nous avons réorganisé le système de commentaires de l'un de nos clients et "
-"construit un système à deux niveaux : le système de commentaires à partir de "
-"zéro en utilisant le framework moderne VueJs qui inclut des emojis, des GIF "
+"construit un système à deux niveaux et le système de commentaires à partir de "
+"zéro, en utilisant le framework moderne VueJs qui inclut des emojis, des GIF "
 "animés et des images."
 
 #: .\mainweb\templates\mainweb\projects.html:60
@@ -147,7 +147,7 @@ msgstr ""
 "Le logiciel de QB Lab est un logiciel personnalisé conçu exclusivement pour "
 "le laboratoire de Quatre Bornes à Maurice utilisant le framework Django de "
 "Python. QB Lab est un logiciel qui enregistre les données de tests sanguins "
-"et les infos des Patients et produit des rapports sur les patients ayant "
+"et les infos des patients et produit des rapports sur les patients ayant "
 "visité le laboratoire."
 
 #: .\nullweb\settings.py:62
