@@ -1,6 +1,7 @@
 {% extends "base_generic.html" %}
 
 {% load static %}
+{% load i18n %}
 
 {% block content %}
     <div class="row">
@@ -14,11 +15,11 @@
             </div>
             <div class="p-2 text-center tagline">
                 <span class="circlesize">
-                    Game Design
+                    {% trans 'Game Design' %}
                     <span class="fas">.</span>
-                    Software Apps
+                    {% trans 'Web/Mobile Apps' %}
                     <span class="fas">.</span>
-                    Music Production
+                    {% trans 'Music Production' %}
                 </span>
             </div>
         </div>

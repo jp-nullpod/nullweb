@@ -1,17 +1,22 @@
 {% load static %}
+{% load i18n %}
+
+{% block navbar %}
 <!-- Navigation Menu -->
 <nav class="navbar navbar-expand-sm navbar-custom navbar-dark">
     <a class="navbar-brand" href="#">
         <img class="jellyfish" src="{% static 'mainweb/images/jelly_fish.svg' %}" />
     </a>
+    <span class="lang-switch"> [<a href="{% url 'mainweb:change_language' 'en'%}">EN</a> | <a href="{% url 'mainweb:change_language' 'fr'%}">FR</a>]</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav justify-content-right">
-            <li class="nav-item"><a class="nav-link" href="{% url 'mainweb:index' %}">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="{% url 'mainweb:projects' %}">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="{% url 'mainweb:about' %}">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'mainweb:index' %}">{% trans 'Home' %}</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'mainweb:projects' %}">{% trans 'Projects' %}</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'mainweb:about' %}">{% trans 'About' %}</a></li>
         </ul>
     </div>
 </nav>
+{% endblock %}

@@ -2,13 +2,16 @@
 
 {% load static %}
 {% load sass_tags %}
+{% load i18n %}
+
 {% block content %}
+
 
 <link rel="stylesheet" type="text/css" href="{% sass_src 'mainweb/css/blog.scss' %}">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
 
 <div class="mt-5">
-    <h3 class="projects font-weight-bold">Our Projects</h3>
+    <h3 class="projects font-weight-bold">{% trans 'Our Projects' %}</h3>
 
     <div class="blog-slider">
         <div class="blog-slider__wrp swiper-wrapper">
@@ -20,10 +23,9 @@
 
             <div class="blog-slider__content">
                 <span class="blog-slider__code">(Unity C#/Clip Studio Paint)</span>
-                <div class="blog-slider__title">Codename: Chronicles of Sun</div>
+                <div class="blog-slider__title">{% trans 'Codename:' %} Chronicles of Sun </div>
                 <div class="blog-slider__text">
-                We built a video game for one of our corporate clients CSR department. The official product will
-                    be launched soon. We handled most aspects of the project management, game design, visual art, sound fx and music.
+                {% trans 'We built a video game for one of our corporate clients CSR department. The official product will be launched soon. We handled most aspects of the project management, game design, visual art, sound fx and music.' %}
                 </div>
                 <a href="#" class="blog-slider__button">...</a>
             </div>
@@ -38,9 +40,8 @@
 
             <div class="blog-slider__content">
                 <span class="blog-slider__code">(PHP 7/VueJs)</span>
-                <div class="blog-slider__title">Comment System</div>
-                <div class="blog-slider__text">We revamped the Comment System of one of our clients and 
-                built a 2-level comment system from scratch using the modern VueJs framework that includes emojis, animated GIFs and images</div>
+                <div class="blog-slider__title">{% trans 'Comment System' %}</div>
+                <div class="blog-slider__text">{% trans 'We revamped the Comment System of one of our clients and built a 2-level comment system from scratch using the modern VueJs framework that includes emojis, animated GIFs and images' %}</div>
                 <a href="#" class="blog-slider__button">...</a>
             </div>
 
@@ -56,10 +57,7 @@
                 <span class="blog-slider__code">(Python Django/Bootstrap4)</span>
                 <div class="blog-slider__title">Qb Lab</div>
                 <div class="blog-slider__text">
-                QB Lab Software is a custom software exclusively designed for the Laboratoire de Quatre Bornes in Mauritius 
-                using Python's Django framework. 
-                QB Lab is an application that registers Patient data and Blood Tests
-                and produces simple reports given to the patients visiting. 
+                {% trans 'QB Lab Software is a custom software exclusively designed for the Laboratoire de Quatre Bornes in Mauritius using Python Django framework. QB Lab is an application that registers Patient data and Blood Tests and produces simple reports given to the patients visiting.' %}
                 </div>
                 <a href="#" class="blog-slider__button">...</a>
             </div>
