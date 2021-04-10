@@ -3,6 +3,10 @@
 {% load sass_tags %}
 {% load i18n %}
 
+{% block title %}
+      <title>nullpod: {% trans 'About Us' %}</title>
+{% endblock %} 
+
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% sass_src 'mainweb/css/about.scss' %}">
 

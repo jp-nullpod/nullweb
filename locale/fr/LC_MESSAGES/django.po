@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-02 14:50+0400\n"
+"POT-Creation-Date: 2021-04-10 18:04+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\mainweb\templates\header.html:16
+#: .\mainweb\templates\header.html:16 .\mainweb\templates\mainweb\home.html:7
 msgid "Home"
 msgstr "Accueil"
 
@@ -29,13 +29,12 @@ msgstr "Projets"
 msgid "About"
 msgstr "À propos"
 
-#: .\mainweb\templates\mainweb\about.html:12
-#, fuzzy
-#| msgid "About"
+#: .\mainweb\templates\mainweb\about.html:7
+#: .\mainweb\templates\mainweb\about.html:16
 msgid "About Us"
 msgstr "À propos"
 
-#: .\mainweb\templates\mainweb\about.html:14
+#: .\mainweb\templates\mainweb\about.html:18
 msgid ""
 "We are a software development company based in Mauritius with specialisation "
 "in Video Games. We design everything from ground up and we take care of:"
@@ -43,75 +42,76 @@ msgstr ""
 "Nous sommes une société de création numérique qui œuvre dans le domaine de "
 "jeu vidéo. Nous concevons tout à partir de rien et nous nous occupons de:"
 
-#: .\mainweb\templates\mainweb\about.html:16
+#: .\mainweb\templates\mainweb\about.html:20
 msgid "Game concept and design"
 msgstr "Conceptualisation et design de jeu vidéo"
 
-#: .\mainweb\templates\mainweb\about.html:17
+#: .\mainweb\templates\mainweb\about.html:21
 msgid "Coding"
 msgstr "Codage"
 
-#: .\mainweb\templates\mainweb\about.html:18
+#: .\mainweb\templates\mainweb\about.html:22
 msgid "Visual Arts/Graphics"
 msgstr "Art visuel/graphisme"
 
-#: .\mainweb\templates\mainweb\about.html:19
+#: .\mainweb\templates\mainweb\about.html:23
 msgid "Music Production and Sound Design"
 msgstr "Conceptualisation et Production de Musique"
 
-#: .\mainweb\templates\mainweb\about.html:20
+#: .\mainweb\templates\mainweb\about.html:24
 msgid "Deployment to iOS, Android and Windows"
 msgstr "Déploiement sur iOS, Android et Windows"
 
-#: .\mainweb\templates\mainweb\about.html:22
+#: .\mainweb\templates\mainweb\about.html:26
 msgid "We also develop custom web, mobile and desktop apps."
 msgstr ""
 "Nous développons également des applications personnalisées pour le Web, "
 "mobile et bureau."
 
-#: .\mainweb\templates\mainweb\about.html:23
+#: .\mainweb\templates\mainweb\about.html:27
 msgid "We are a small team that masters the following tech stacks:"
 msgstr ""
 "Nous sommes une petite équipe qui maîtrise les composants technologiques "
 "suivants:"
 
-#: .\mainweb\templates\mainweb\about.html:25
+#: .\mainweb\templates\mainweb\about.html:29
 msgid "Python w/Django or Flask"
 msgstr "Python avec Django ou Flask"
 
-#: .\mainweb\templates\mainweb\about.html:29
+#: .\mainweb\templates\mainweb\about.html:33
 msgid "Unity Platform"
 msgstr "Plateforme Unity"
 
-#: .\mainweb\templates\mainweb\about.html:33
+#: .\mainweb\templates\mainweb\about.html:37
 msgid "Follow Us"
 msgstr "Suivez-nous"
 
-#: .\mainweb\templates\mainweb\about.html:43
+#: .\mainweb\templates\mainweb\about.html:47
 msgid "Contact Us"
 msgstr "Contactez-nous"
 
-#: .\mainweb\templates\mainweb\home.html:18
+#: .\mainweb\templates\mainweb\home.html:22
 msgid "Game Design"
 msgstr "Conception de Jeu Vidéo"
 
-#: .\mainweb\templates\mainweb\home.html:20
+#: .\mainweb\templates\mainweb\home.html:24
 msgid "Web/Mobile Apps"
 msgstr "Application Web/Mobile"
 
-#: .\mainweb\templates\mainweb\home.html:22
+#: .\mainweb\templates\mainweb\home.html:26
 msgid "Music Production"
 msgstr "Production de Musique"
 
-#: .\mainweb\templates\mainweb\projects.html:14
+#: .\mainweb\templates\mainweb\projects.html:8
+#: .\mainweb\templates\mainweb\projects.html:18
 msgid "Our Projects"
 msgstr "Nos Projets"
 
-#: .\mainweb\templates\mainweb\projects.html:26
+#: .\mainweb\templates\mainweb\projects.html:30
 msgid "Codename:"
 msgstr "Nom de code:"
 
-#: .\mainweb\templates\mainweb\projects.html:28
+#: .\mainweb\templates\mainweb\projects.html:32
 msgid ""
 "We built a video game for one of our corporate clients CSR department. The "
 "official product will be launched soon. We handled most aspects of the "
@@ -122,22 +122,22 @@ msgstr ""
 "traité la plupart des aspects de la gestion de projet, la conceptualisation "
 "du jeu, les arts visuels, les effets sonores et la musique."
 
-#: .\mainweb\templates\mainweb\projects.html:43
+#: .\mainweb\templates\mainweb\projects.html:47
 msgid "Comment System"
 msgstr "Système de Commentaire"
 
-#: .\mainweb\templates\mainweb\projects.html:44
+#: .\mainweb\templates\mainweb\projects.html:48
 msgid ""
 "We revamped the Comment System of one of our clients and built a 2-level "
 "comment system from scratch using the modern VueJs framework that includes "
 "emojis, animated GIFs and images"
 msgstr ""
 "Nous avons réorganisé le système de commentaires de l'un de nos clients et "
-"construit un système à deux niveaux et le système de commentaires à partir de "
-"zéro, en utilisant le framework moderne VueJs qui inclut des emojis, des GIF "
-"animés et des images."
+"construit un système à deux niveaux et le système de commentaires à partir "
+"de zéro, en utilisant le framework moderne VueJs qui inclut des emojis, des "
+"GIF animés et des images."
 
-#: .\mainweb\templates\mainweb\projects.html:60
+#: .\mainweb\templates\mainweb\projects.html:64
 msgid ""
 "QB Lab Software is a custom software exclusively designed for the "
 "Laboratoire de Quatre Bornes in Mauritius using Python Django framework. QB "
