@@ -14,13 +14,13 @@ v.0.2.1 (Planned for April 2021)
 - Meta Description [done]
 - Fix footer issues [done]
 
-v.0.3 (April 2020)
-- Change titles for each page
+v.0.3 (May 2021)
+- Change titles for each page [done]
 - Improve Waves Design scraping SVG for Pure CSS
 - Change Colors on Active Menus
-- English and French (Multilanguage platform)
+- English and French (Multilanguage platform) [done]
 
-v.0.4
+v.0.4 (June 2021)
 - Call to Action
 - Include Contact Form with anti-spam mechanism
 - Convert all CSS to SCSS
