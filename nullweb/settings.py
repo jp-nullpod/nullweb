@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ['https://nullweb.herokuapp.com/']
-
+SECURE_SSL_REDIRECT = True
 
 # Application definition
 
