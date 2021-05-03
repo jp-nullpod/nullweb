@@ -18,7 +18,7 @@ v.0.3 (May 2021)
 - Change titles for each page [done]
 - Improve Waves Design scraping SVG for Pure CSS
 - Change Colors on Active Menus
-- Remove 'http'
+- Remove 'http' [done]
 - English and French (Multilanguage redirect improvements) 
 
 v.0.4 (June 2021)
